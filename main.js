@@ -103,6 +103,7 @@ function resetBoard (){
     tickerInt=0;
     ticker.innerHTML=0;
     timerInt=120;
+    matchedCards= [];
     
     document.querySelectorAll('.card').forEach((card) => {
         card.classList.remove('flip');
