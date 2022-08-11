@@ -143,3 +143,9 @@ You will have a maximum of 10 minutes to present your project following these gu
 - If your instructors determine that your project does not meet the above requirements (denoted using checkboxes), you will be given 3 calendar days to address the deficiencies identified. However, be aware that **there is only a single opportunity to resubmit a project during the course**. For example, if you have to resubmit Project 1, you will not have an opportunity to resubmit Projects 2, 3, or 4.
 - Immediately after your presentation, your instructor and/or outcomes may provide you with feedback that will benefit your project and perhaps the projects of other students as well.
 - If there is a specific section of code that you would like an instructor to provide additional feedback on, please ask!
+
+Matching PAR-ty
+This is a Memory Matching golf themed game. You will start with 16 cards and you must flip cards until you get all cards to match (8 sets). Press the start button to begin the game and start watching the time tick down. If you are able to get all matches before the times runs out you have hit a "HOLE-IN-ONE". If the time runs out before you match all the cards, you will have hit a "DOUBLE BOGEY", OH NO!! If you find a match great job, but all cards will turn over when you find a mis-match and will have to start again (this is where you must rely on your memory). If you get frustrated or want to reset your time, hit the reset button and try again from full time(120 seconds). 
+
+
+![alt text] https://i.imgur.com/I92WXyem.png
