@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="./main.js" defer></script>
+    <link href="https://fonts.googleapis.com/css2?family=Margarine&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!--First thing I need is a h1 for my game title -->
+    <!--Next thing I need is to make my divs (game-container, game info-container, game-info for timer and flips and div for all my cards)-->
+    <h1> Matching PAR-ty</h1>
+    <div class= container>
+        <div class=" game-container">
+            
+            <div class="button-wrapper">
+                <button class=" start-button">Start Game</button>
+                <button class="reset-button">Restart</button>
+            </div>
+            <div class=" game-info-container">
+                <div class="game-info">
+                 Timer <span id="time remaining">120</span> <!--(use a span id so I can easily select and manipulate the timer without having to keep changing and adjusting the time)> -->
+                </div>
+                <div class ="game-info">
+                    Flips <span id="flips">0</span> <!--(this works the same as timer so I can easily access the flips) -->
+                </div>
+            </div>
+            
+            
+            <div class="card" id="golfer-1">
+                <div class="front card-face">
+                <img class="golf-flag" src="https://i.imgur.com/zOx2TwNm.png">
+                </div>
+                <div class="back card-face">
+                 <img class="golfer-1" src="Assets/golfer 1.jpeg">   
+                </div>
+            </div>    
+            <div class="card" id="golfer-2">
+                <div class="front card-face">
+                <img class="golf-flag" src="https://i.imgur.com/zOx2TwNm.png">
+                </div>
+                <div class="back card-face">
+                 <img class="golfer-2" src="Assets/golfer 2.jpeg">   
+                </div>
+            </div>   
+            <div class="card" id="golf-bag">
+                <div class="front card-face">
+                <img class="golf-flag" src="https://i.imgur.com/zOx2TwNm.png">
+                </div>
+                <div class="back card-face">
+                 <img class="golfer-1" src="Assets/golf bag.jpeg">   
+                </div>
+            </div>   
+            <div class="card" id="golf-ball">
+                <div class="front card-face">
+                <img class="golf-flag" src="https://i.imgur.com/zOx2TwNm.png">
+                </div>
+                <div class="back card-face">
+                 <img class="golfer-1" src="https://i.imgur.com/tdjzk5Gm.jpg">   
+                </div>
+            </div>   
+            <div class="card" id="golf-cart">
+                <div class="front card-face">
+                <img class="golf-flag" src="https://i.imgur.com/zOx2TwNm.png">
+                </div>
+                <div class="back card-face">
+                 <img class="golfer-1" src="Assets/golf cart.jpeg">   
+                </div>
+            </div>   
+            <div class="card" id="golf-driver">
+                <div class="front card-face">
+                <img class="golf-flag" src="https://i.imgur.com/zOx2TwNm.png">
+                </div>
+                <div class="back card-face">
+                 <img class="golfer-1" src="Assets/golf driver .jpeg">   
+                </div>
+            </div>   
+            <div class="card" id="golf-putter">
+                <div class="front card-face">
+                <img class="golf-flag" src="https://i.imgur.com/zOx2TwNm.png">
+                </div>
+                <div class="back card-face">
+                 <img class="golfer-1" src="Assets/golf putter.png">   
+                </div>
+            </div>   
+            <div class="card" id="tiger">
+                <div class="front card-face">
+                <img class="golf-flag" src="https://i.imgur.com/zOx2TwNm.png">
+                </div>
+                <div class="back card-face">
+                 <img class="golfer-1" src="https://i.imgur.com/MF6kH6cm.jpg">   
+                </div>
+            </div>   
+            <div class="card" id="golfer-1">
+                <div class="front card-face">
+                <img class="golf-flag" src="https://i.imgur.com/zOx2TwNm.png">
+                </div>
+                <div class="back card-face">
+                 <img class="golfer-1" src="Assets/golfer 1.jpeg">   
+                </div>
+            </div>   
+            <div class="card" id="golfer-2">
+                <div class="front card-face">
+                <img class="golf-flag" src="https://i.imgur.com/zOx2TwNm.png">
+                </div>
+                <div class="back card-face">
+                 <img class="golfer-1" src="Assets/golfer 2.jpeg">   
+                </div>
+            </div>   
+            <div class="card" id="golf-bag">
+                <div class="front card-face">
+                <img class="golf-flag" src="https://i.imgur.com/zOx2TwNm.png">
+                </div>
+                <div class="back card-face">
+                 <img class="golfer-1" src="Assets/golf bag.jpeg">   
+                </div>
+            </div>   
+            <div class="card" id="golf-ball">
+                <div class="front card-face">
+                <img class="golf-flag" src="https://i.imgur.com/zOx2TwNm.png">
+                </div>
+                <div class="back card-face">
+                 <img class="golfer-1" src="Assets/golf ball.jpeg">   
+                </div>
+            </div>   
+            <div class="card" id="golf-cart">
+                <div class="front card-face">
+                <img class="golf-flag" src="https://i.imgur.com/zOx2TwNm.png">
+                </div>
+                <div class="back card-face">
+                 <img class="golfer-1" src="Assets/golf cart.jpeg">   
+                </div>
+            </div>   
+            <div class="card" id="golf-driver">
+                <div class="front card-face">
+                <img class="golf-flag" src="https://i.imgur.com/zOx2TwNm.png">
+                </div>
+                <div class="back card-face">
+                 <img class="golfer-1" src="Assets/golf driver .jpeg">   
+                </div>
+            </div>   
+            <div class="card" id="golf-putter">
+                <div class="front card-face">
+                <img class="golf-flag" src="https://i.imgur.com/zOx2TwNm.png">
+                </div>
+                <div class="back card-face">
+                 <img class="golfer-1" src="Assets/golf putter.png">   
+                </div>
+            </div>   
+            <div class="card" id="tiger">
+                <div class="front card-face">
+                <img class="golf-flag" src="https://i.imgur.com/zOx2TwNm.png">
+                </div>
+                <div class="back card-face">
+                 <img class="golfer-1" src="https://i.imgur.com/MF6kH6cm.jpg">   
+                </div>
+            </div>   
+            
+            
+        </div>
+           
+           
+            
+        <!-- <div class="card">
+            <div class="card-back card-face">
+              <img class="cob-web cob-web-top-left" src="Assets/Images/Cobweb.png">
+              <img class="cob-web cob-web-top-right" src="Assets/Images/Cobweb.png">
+              <img class="cob-web cob-web-bottom-left" src="Assets/Images/Cobweb.png">
+              <img class="cob-web cob-web-bottom-right" src="Assets/Images/Cobweb.png">
+              <img class="spider" src="Assets/Images/Spider.png">
+            </div>
+            <div class="card-front card-face">
+              <img class="cob-web cob-web-top-left" src="Assets/Images/CobwebGrey.png">
+              <img class="cob-web cob-web-top-right" src="Assets/Images/CobwebGrey.png">
+              <img class="cob-web cob-web-bottom-left" src="Assets/Images/CobwebGrey.png">
+              <img class="cob-web cob-web-bottom-right" src="Assets/Images/CobwebGrey.png">
+              <img class="card-value" src="Assets/Images/Bat.png">
+            </div>
+          </div>   
+        
+        <!--Same goes for the front
+        
+        Also need a restart button for the game.
+        <div class="restart"
+        <input type="reset>"
+        This button will be held in the game container
+        
+        
+        Call victory overlay "Winner Winner"
+        ex: div class="winner winner"> Hole-in-One>/div
+        
+        div class="Game over"> Double Bogey>div-->
+        
+        
+        
+        
+    </div>
+    
+    
+    
+    
+    
+    
+    
+    
+</body>
+</html>
+<!--Now the div class for my cards. There are 16 cards in total, so 16 class "cards"
+    Also create a game over overlay that when time runs out it says game over
+    Create a victory overlay that when someone wins it pulls up Victory overlay.
+    My card divs will be in my game container div-->
+    <!--With our card classes we need to set "card front and card back" with their images
+        <div class="card">
+            <div class="card back"
+            <img class="golfpin" src="create a file for all images we're using"-->
