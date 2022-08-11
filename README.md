@@ -1,151 +1,60 @@
-# PROJECT 1! **Browser-based Game**
+# Taylor Phillips: Project 1-Matching PAR-ty
 
-## **Overview**
+## **Game Description**
 
-Your first SEI project will start out with something fun - **a game!**
+**Matching PAR-ty**
+This is a Memory Matching golf themed game. You will start with 16 cards and you must flip cards until you get all cards to match (8 sets). Press the start button to begin the game and start watching the time tick down. If you are able to get all matches before the times runs out you have hit a "HOLE-IN-ONE". If the time runs out before you match all the cards, you will have hit a "DOUBLE BOGEY", OH NO!! If you find a match great job, but all cards will turn over when you find a mis-match and will have to start again (this is where you must rely on your memory). Also, when you click the first card and your second card is not a match, the second card will not flip(adding to your challenge). If you get frustrated or want to reset your time, hit the reset button and try again from full time(120 seconds). 
 
-Thanks to the amount of logic there is in a game, there's no better app than a game to teach you how to **think like a programmer**!
+## **Game Pictures**
+![Screen Shot 2022-08-11 at 1 14 05 PM](https://user-images.githubusercontent.com/109078858/184251901-a9bd7c3c-36f6-479e-8993-4c106dc00869.png)
 
-Everyone will get a chance to **be creative**, and work through some really **tough programming challenges**. You got your feet wet with Tic-Tac-Toe, and we built a game or two during class - now it's time to step it up a notch.
-
-**You will be working individually for this project**. However, your instructors and instructor assistants will be guiding you along with up to ten 15-minute one-on-one sessions. Be sure to use them wisely :).
-
-As a reminder, GA has a zero plagiarism policy - your project's code **must be substantially yours**. **Do not copy code from other similar projects or other sources**. However, using lines of code from StackOverflow to accomplish general techniques/algorithms is okay - an example would be using StackOverflow as a source for code that replaces a character at a certain position in a string.
-
----
-
-## **Planning & Presentation Requirements**
-
-### **Planning - Due By BOD August 8, 2022**
-
-- You will share:
-    
-    ☐ Your choice of game.
-    
-    ☐ A wireframe of your "main" game screen. (Many students find [https://www.figma.com/](https://www.figma.com/) helpful)
-    
-    ☐ Pseudocode for the overall gameplay.
-
-### **Presentation - Friday, August 12th:**
-
-You will have a maximum of 10 minutes to present your project following these guidelines:
-
-1. **Introduce the Project:**
-    
-    ☐ Intro your game by paraphrasing the README.
-    
-2. **Demonstrate the Project:**
-    
-    ☐ Launch the game by clicking the link in the README.
-    
-    ☐ Play the game! If necessary, manipulate the values of variables in the console to ensure a quick win or loss.
-    
-3. **Show/discuss your code:**
-    
-    ☐ Briefly show the HTML & CSS.
-    
-    ☐ Show the JavaScript and discuss your favorite function.
-    
-4. **Share the experience:**
-    
-    ☐ What was your biggest challenge?
-    
-    ☐ What are your key learnings/takeaways?
-    
-5. **Q & A + Feedback**
-
----
-
-## **Technical Requirements**
-
-### **Your App Must:**
-
-☐ **Render a game in the browser**.
-
-☐ **Include win and/or loss logic and render win/loss messages in HTML.** Popup alerts using the `alert()` method are okay during development, but not production.
-
-☐ Include separate HTML, CSS & JavaScript files.
-
-☐ Have **properly indented HTML, CSS & JavaScript**. In addition, vertical whitespace needs to be consistent.
-
-☐ No remaining **dead and/or commented out code** (code that will never be called).
-
-☐ Have functions and variables that are named sensibly. Remember, functions are typically named as verbs, and variables (data) are named as nouns.
-
-☐ **Be coded in a consistent** manner. For example, choose between your preference for function declarations vs. function expressions.
-
-☐ **Deploy your game online** using GitHub Pages so that the rest of the world can play your game!
-
----
-
-## **Necessary Deliverables**
-
-☐ The code for **a working game that meets or exceeds the above technical requirements, built by you, and hosted on GitHub Pages** (covered next week).
-
-- **A `README.md` file** with these sections:
-    
-    ☐ **<Your game's title>**: A description of your game. Background info of the game is a nice touch.
-    
-    ☐ **Screenshot(s):** Images of your actual game.
-    
-    ☐ **Technologies Used**: List of the technologies used, e.g., JavaScript, HTML, CSS...
-    
-    ☐ **Getting Started**: In this section include the link to your deployed game and any instructions you deem important.
-    
-    ☐ **Next Steps**: Planned future enhancements (icebox items).
-    
-    > Note: Don't underestimate the value of a well-crafted README.md. The README.md introduces your project to prospective employers and forms their first impression of your work!
-    > 
-
-☐ **Frequent commits dating back to the very beginning of the project**. Commit messages should be in the present tense, e.g., "Style game board" instead of "Styled game board". **Be sure to create the repo on your personal GitHub account and ensure that it is "public".**
-
----
-
-## **Choose From the Following Games**
-
-> Note: Games are listed in approximate order of increasing difficulty.
-> 
-0. **Tamagotchi**
-1. **Trivia game**
-2. **War** (the card game)
-3. **Blackjack**
-4. **Slot Machine**
-5. **Simon** (warning: will require asynchronous timing)
-6. **2048**
-7. **Minesweeper**
-8. **Checkers** (no AI required - player vs. player is fine)
-9. **Solitaire**
-10. **Battleship** (would require a little AI to implement a computer opponent)
-
-**If you have a game not on the list that you'd like to code, please be sure to get approval from your instructor!**
-
-> *IMPORTANT: Because it's important to demonstrate your ability to perform DOM manipulation using JavaScript, all games should be DOM-based, **not canvas-based**.*
-> 
-
----
-
-## **Suggestions**
-
-- **The BEST advice is to follow the guidelines and principles in the** [Guide to Building a Browser App](https://gist.github.com/jim-clark/6f1919291f6007b2c0b2c93d925d6bac). The guide will give you a step-by-step process to get you started and its MVC design pattern will result in clearer, more concise code that can scale functionality more easily.
-- **Theme your game** to give it a more personal touch and make it more unique!
-- **Use your Development Tools** (`console.log`, DevTools' debugger, `alert` statements) to debug and solve issues.
-- Stick with the **KISS (Keep It Simple Stupid)** principle. Minimum Viable Product (MVP) functionality that looks great is better than extra functionality added to a game without polish.
-- If you choose a card-based game, there is a CSS library in the *resources* directory of the class repo that will help you render **beautiful** cards of any size, front and back.
-- **Commit early, commit often.** Don’t be afraid to break something because you can always go back in time to a previous version.
-- **Consult documentation and other resources** to better understand methods, etc.
-- Write **DRY (Don't Repeat Yourself)** code. Check for repeating code and refactor into functions that accept arguments.
-
----
-
-## **Project Feedback + Evaluation**
-
-- Your instructors will be evaluating your project during your demonstration as well as reviewing the code in your repo.
-- If your instructors determine that your project does not meet the above requirements (denoted using checkboxes), you will be given 3 calendar days to address the deficiencies identified. However, be aware that **there is only a single opportunity to resubmit a project during the course**. For example, if you have to resubmit Project 1, you will not have an opportunity to resubmit Projects 2, 3, or 4.
-- Immediately after your presentation, your instructor and/or outcomes may provide you with feedback that will benefit your project and perhaps the projects of other students as well.
-- If there is a specific section of code that you would like an instructor to provide additional feedback on, please ask!
-
-Matching PAR-ty
-This is a Memory Matching golf themed game. You will start with 16 cards and you must flip cards until you get all cards to match (8 sets). Press the start button to begin the game and start watching the time tick down. If you are able to get all matches before the times runs out you have hit a "HOLE-IN-ONE". If the time runs out before you match all the cards, you will have hit a "DOUBLE BOGEY", OH NO!! If you find a match great job, but all cards will turn over when you find a mis-match and will have to start again (this is where you must rely on your memory). If you get frustrated or want to reset your time, hit the reset button and try again from full time(120 seconds). 
+This screenshot demonstrates what you will see when you first open up the game. You can see your start button, your reset button, flip counter and your cards.
 
 
-![alt text] https://i.imgur.com/I92WXyem.png
+![Screen Shot 2022-08-11 at 1 40 30 PM](https://user-images.githubusercontent.com/109078858/184252783-a1deb50f-7f7f-406f-a230-74cddaa48290.png)
+
+Look! You made your first match. Once you make another selection and those cards don't match, you will have to start looking for matches again.
+
+
+![Screen Shot 2022-08-11 at 1 43 20 PM](https://user-images.githubusercontent.com/109078858/184252917-e3d96bd3-dac7-47a2-aca8-84313bc1fcd4.png)
+
+You did it! You have matched all cards and you can see the "HOLE-IN-ONE" message.
+
+
+![Screen Shot 2022-08-11 at 5 31 14 PM](https://user-images.githubusercontent.com/109078858/184253526-dd659bf2-c031-492f-9b34-d8de296b128d.png)
+
+You didn't get all the matches before time ran out! This screenshot shows the message "DOUBLE BOGEY". Now to restart the game and try again!
+
+
+## **Technologies Used**
+
+I used HTML to make the display of my game. The HTML included my images for the game, my start/restart button, my timer and my flip counter.
+
+I used CSS to decorate and organize my HTML. I used CSS grid to align my cards into a grid pattern of 4x4. I also used CSS to style the font of my game title, buttons, timer and flip counter. Also, used CSS to allign my title, buttons, timer and flip counter in their designated positions.
+
+I used Javascript to build my game. I used conditional statements to check for card matches and mismatches. I created functions that would allow for my cards to flip, cards to be matched, unmatched cards and checking for the matches. I displayed my victory message and game over message by using DOM manipulation. DOM manipulation was also key for the ability to click the cards and to locate information needed for the game to run (start button, restart button, timer and flip counter). Finally, I built functions to start my timer countdown and to remove flip from cards when they were not matched.
+
+
+## **Coding Challenges**
+
+![Screen Shot 2022-08-11 at 5 54 25 PM](https://user-images.githubusercontent.com/109078858/184255965-45b3c655-c24d-4b6d-95cc-d63bdd6a6ecc.png)
+
+![Screen Shot 2022-08-11 at 5 55 44 PM](https://user-images.githubusercontent.com/109078858/184256002-5129ace8-1a48-46df-bd89-70251e5e35d3.png)
+
+
+## **Link to Matching PAR-ty**
+
+https://tjphillips08.github.io/Matching-PAR-ty-deployment/
+
+
+## **Next Steps**
+
+I had a blast making this game. However, there are steps I would like to make to polish my game. First, I would like to make animations for when cards match. I want to see the cards rubberband or shake when they are matched. Also, I want to add a hover style, so when the user hovers their mouse above the card it raises slightly. I also want to improve on the functionality of the game. The game runs fine in it's current state, but I can make my code more dry and add more functions to help the game run smoother. For example, adding in a shufflecard feature to add different dynamics to the game.
+
+
+
+
+
+
+
+
