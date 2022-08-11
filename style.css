@@ -126,6 +126,12 @@ html {
     transform: scale(.8);
 }
 
+#victory{
+    font-size: 100px;
+    color: #67C247;
+    text-align: center;
+}
+
 
 
 

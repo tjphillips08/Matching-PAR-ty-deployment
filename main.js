@@ -23,6 +23,11 @@ let selectedCards = [];
 
 let matchedCards=[];
 
+let winTime = document.getElementById('victory');
+
+let gameEnd = document.getElementById('game-over');
+
+
 
 
 
@@ -89,7 +94,8 @@ function startCountdown() {
 
 function gameOver(){
     clearInterval(counter);
-    alert('Double Bogey')
+    gameEnd.innerText = "DOUBLE BOGEY";
+    //alert('Double Bogey')
 }
 }
 //set time back to start(120), flips to 0 and remove flips(remove(flip))
@@ -180,7 +186,8 @@ function misMatch() {
 }
 
 function victory(){
-    alert("Hole-in-One");
+    winTime.innerText = "HOLE-IN-ONE!!"
+    //alert("Hole-in-One");
 }
 
 
