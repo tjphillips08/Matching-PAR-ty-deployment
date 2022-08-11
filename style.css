@@ -81,11 +81,11 @@ html {
     transform: rotateY(0);
     -webkit-transform: rotateY(0);
    
+}
    
     
     
     
-}
 
 .back{
     
@@ -116,15 +116,7 @@ html {
     transform:rotateX(-180deg);
 }
 
-.card.matched{
-    animation: shake 2s;
-}
 
-.card-value{
-    position:relative;
-    transition: transform 100ms ease-in-out;
-    transform: scale(.8);
-}
 
 #victory{
     font-size: 125px;
