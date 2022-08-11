@@ -103,11 +103,15 @@ function resetBoard (){
     tickerInt=0;
     ticker.innerHTML=0;
     timerInt=120;
-
+    
     document.querySelectorAll('.card').forEach((card) => {
         card.classList.remove('flip');
     });
+
+    winTime.innerText='';
+    gameEnd.innerText='';
     
+
 
 }
     
@@ -190,7 +194,7 @@ function victory(){
     //alert("Hole-in-One");
 }
 
-
+//stretch goal
 // function shuffleCards(cardsArray) { // Fisher-Yates Shuffle Algorithm.
 //     let cardsArray = cards;
 //     for (let i = cardsArray.length - 1; i > 0; i--) {

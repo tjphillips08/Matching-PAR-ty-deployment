@@ -127,7 +127,13 @@ html {
 }
 
 #victory{
-    font-size: 100px;
+    font-size: 125px;
+    color: #67C247;
+    text-align: center;
+}
+
+#game-over{
+    font-size: 125px;
     color: #67C247;
     text-align: center;
 }
